@@ -1,6 +1,6 @@
-/**
- * Real test 6.0
- *Solidity code problem: missing semicolon
+/* Real test 7.0
+
+ *Solidity code problem: 
  
  What is wrong with the code?
  -unchecked recursion
@@ -13,9 +13,11 @@
 */
 
 
- function processData (int data) public returns (int){
-  int currData = data;
-  dataTable[currdata] = "New Data"
-  data = currData;
-  return data;
+ function processData (uint number) public returns (bool) {
+ if (!processData(1))    {
+ return true;   
+    }
  }
+
+  
+
