@@ -9,7 +9,7 @@
  -incompatible types<-------???
  -undeclared variable of function
  
-*/
+*//
 
 
 function processData (int data) public returns (int) {
