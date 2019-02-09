@@ -1,4 +1,5 @@
-/* Real test 8.0
+
+/** Real test 8.0
 
  *Solidity code problem: 
  
