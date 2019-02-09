@@ -5,10 +5,10 @@
  What is wrong with the code?
  -unchecked recursion
  -missing parenthesis
- -incompatible types
+ -incompatible types<-------???
  -wrong typecasting
  -undeclared variable of function
- -missing semicolon<------CORRECT
+ -missing semicolon
  -wrong use of conditinal
 */
 
