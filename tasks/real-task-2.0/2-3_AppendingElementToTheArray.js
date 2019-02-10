@@ -1,19 +1,22 @@
-/**
+
+/*
  * Real test 2.3
  *
- * JavaScript: Appending Element to the Array
- --------------------------------------
- Which of the following code snippet append an element value a the end of the array, arr?
- */
+ *Appending element to the Array
 
 
-/** ----------------------------------------------------------------------------------
-
- Pick one of the choices:
-
- - arr[arr.length + 1] = value
- - arr[arr.length] = value
- - arr[arr.length - 1] = value
- - arr = arr + value
+ Pick one of the choices
+ arr[arr.length +1] =value
+ arr[arr.length] =value <------CORRECT
+ arr[arr.length -1] =value
+ arr = arr + value
+ -------------------------------------
+ How to Add Elements to the End of an Array
+ You can use the array's length property to add an element to the end of the array:
 
  */
+
+ ar[arr.length] = 'five';
+ console.log( arr ); //  ["one", "two", "three", "four", "five"]
+
+
