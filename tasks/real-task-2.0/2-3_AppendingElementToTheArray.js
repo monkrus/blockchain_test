@@ -16,7 +16,7 @@
 
  */
 
- ar[arr.length] = 'five';
- console.log( arr ); //  ["one", "two", "three", "four", "five"]
+ ar[ar.length] = 'five';
+ console.log( ar ); //  ["one", "two", "three", "four", "five"]
 
 
