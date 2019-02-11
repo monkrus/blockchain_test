@@ -1,5 +1,5 @@
 /**
- * Real test 9.0
+ * Real test Q12
  *
  *  Solidity Code Problem
  --------------------------------------
@@ -8,8 +8,13 @@
  */
  // Can you spot it?
 
-function processData (int number, int multiplier, int variation, int percent) public returns (int) {
-    return ((number * multiplier) / percent) * variation) - variation;
+ function processData (unit number) public return(bool){
+    uint _number=number;
+    if(number=_number){
+        return true;
+    } esle {
+        return false;
+    }
 }
 
 /** ----------------------------------------------------------------------------------
@@ -17,12 +22,14 @@ function processData (int number, int multiplier, int variation, int percent) pu
  Pick one of the choice:
 
  - Unchecked Recursion
- - Missing parentheses <<< --- CORRECT ANSWER
+ - Missing parentheses
  - Incompatible types
  - Wrong typecasting
  - Undeclared variable or function
- - Missing Semicolon
  - Wrong use of conditional
+ - Missing Semicolon
+
+ // I think this contract missing pure function (...public pure returns...)
 
  */
 

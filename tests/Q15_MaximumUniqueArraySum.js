@@ -1,5 +1,5 @@
-/*
- *Real test 14.0
+/**
+ *Real test Q15
  *Given an array, you must increment any duplicate elements until all its elements are unique. 
  *In  addition, the sum of its elements must be the minimum possible within the rules.
  *

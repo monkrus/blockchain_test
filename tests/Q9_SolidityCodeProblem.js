@@ -1,5 +1,5 @@
 /**
- * Real test 6.0
+ * Real test Q9
  *Solidity code problem: missing semicolon
  
  What is wrong with the code?

@@ -1,4 +1,4 @@
-/* Real test 7.0
+/** Real test Q10
 
  *Solidity code problem: 
  

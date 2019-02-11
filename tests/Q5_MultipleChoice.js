@@ -1,5 +1,5 @@
-/*
- * Real test 4.0
+/**
+ * Real test Q5
  * Consider two functions below: will the return the same thing?
  * 
  * Pick one of the choices:

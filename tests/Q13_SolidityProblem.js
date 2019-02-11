@@ -1,5 +1,5 @@
 /**
- * Real test 9.0
+ * Real test Q13
  *
  *  Solidity Code Problem
  --------------------------------------
@@ -8,13 +8,8 @@
  */
  // Can you spot it?
 
- function processData (unit number) public return(bool){
-    uint _number=number;
-    if(number=_number){
-        return true;
-    } esle {
-        return false;
-    }
+function processData (int number, int multiplier, int variation, int percent) public returns (int) {
+    return ((number * multiplier) / percent) * variation) - variation;
 }
 
 /** ----------------------------------------------------------------------------------
@@ -22,12 +17,12 @@
  Pick one of the choice:
 
  - Unchecked Recursion
- - Missing parentheses
+ - Missing parentheses <<< --- CORRECT ANSWER
  - Incompatible types
  - Wrong typecasting
  - Undeclared variable or function
- - Wrong use of conditional
  - Missing Semicolon
+ - Wrong use of conditional
 
  */
 

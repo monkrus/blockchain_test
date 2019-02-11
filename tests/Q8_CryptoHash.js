@@ -1,6 +1,6 @@
 
 /**
- * Real test 5.0
+ * Real test Q8
  *
  *Output hash
 If you use a document as the input of the hashing function,
@@ -14,6 +14,4 @@ b: Send the hash to another party for them to decrypt the hash to retrieve the d
 c: Create a table where anyone who has the hash can find the document (CORRECT)
 d: Compress the document content so it can be extracted later
 
-
-
-  */
+ */

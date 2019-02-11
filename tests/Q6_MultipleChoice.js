@@ -1,5 +1,5 @@
 /**
- * Real test 2.4
+ * Real test Q6
  *
  * With the following Javascript code:
  --------------------------------------
